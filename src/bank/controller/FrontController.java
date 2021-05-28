@@ -29,6 +29,4 @@ public class FrontController extends HttpServlet {
 		Controller subController = map.get(path);
 		subController.execute(req, resp);
 	}
-	
-	
 }
